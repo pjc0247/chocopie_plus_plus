@@ -1,5 +1,3 @@
-begin
-
 import 'engine/hierarchy/layer.rb'
 
 class Application < Layer
@@ -8,8 +6,4 @@ class Application < Layer
 	Size = Size.new(640,480)
 
 	WindowFlags = WindowFlag::Borderless
-end
-
-rescue
-	puts "#{$!}"
 end
